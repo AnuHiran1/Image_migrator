@@ -1,7 +1,7 @@
 node
 {
-properties([parameters([text(defaultValue: '''api-application-status:R5.4.0_P1_AZURE
-api-ump:R5.4.0_P1_AZURE''', description: '', name: 'string'), string(defaultValue: 'registry-nonprod.imiconnect.net:80', description: 'Enter Source registry', name: 'SOURCE', trim: false), choice(choices: ['registry-campaign.imicampaign.io:80'], description: 'Enter Destination registry', name: 'DESTINATION')])])
+properties([parameters([text(defaultValue: '''nginx:.0
+tomcat:latest''', description: '', name: 'string'), string(defaultValue: 'private_registry:80', description: 'Enter Source registry', name: 'SOURCE', trim: false), choice(choices: ['destination_registry1:80','destination_registry2:80], description: 'Enter Destination registry', name: 'DESTINATION')])])
 
  
 
